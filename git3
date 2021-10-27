@@ -1,0 +1,20 @@
+Git configuration 
+===================
+local [.git/config] : 
+$ git config --local user.name 'yugandhar'
+
+global [~/.gitconfig ] :
+$ git config --global user.name 'abc' 
+$ git config --global user.email 'abc@xyz.com' 
+
+system [/etc/gitconfig] :
+$ sudo git config --system commit.template /home/labsuser/commit-template.txt
+
+Second user activities :
+============
+Cloning Repo and modfication of a file , then push to remote repo. 
+============================ 
+$ mkdir second_user 
+$ cd second_user
+$ git clone https://github.com/github515157/Devops.git [To downlode the first user code from the remote repo to local repo and it creates a copy of the code file]
+$ cd Devops 
