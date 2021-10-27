@@ -1,0 +1,23 @@
+First User activities:  
+====================== 
+[github.com] Create a remote repository in github.com [User should have github account] 
+
+$ mkdir Devops
+$ cd Devops
+$ echo "# second-repo" >> Devops
+$ git init [Repo initialization]
+$ git add <file name> [adding file into staging area]
+$ git commit -m "first commit"   [Commit changes as a message]
+$ git branch -M main 
+$ git remote add origin https://github.com/githu512515/Devops.git [Linking local repo with remote repository]
+$ git config --global credential.helper store [Store password]
+$ git push -u origin main 
+
+Git configuration 
+===================
+local [.git/config] : 
+$ git config --local user.name 'yugandhar'
+
+global [~/.gitconfig ] :
+$ git config --global user.name 'abc' 
+$ git config --global user.email 'abc@xyz.com'
