@@ -1,0 +1,27 @@
+Log:
+To check the time stamp and all the devloper details commit messages
+=============
+$ git log --oneline 
+$ git log
+
+ Revert:
+ the any changes/undo the changes and form a new commit 
+ ==================================
+$ git revert <commit ID>    
+
+
+ Rest:
+
+ Reset the changes from Local repo to working area
+ =============================================
+  $ git reset HEAD~1
+  $ git reset --mixed HEAD~1 
+  
+Reset the changes from Local Repo to Staging area
+=========================================================
+$ git reset --soft HEAD~1
+
+ Reset the changes from Local Repo and remove the changes entire.
+ =============================================
+Note: Don't use this pretty dangerous 
+ $ git reset --hard HEAD~1 
