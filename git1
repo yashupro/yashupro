@@ -17,7 +17,7 @@ Git configuration
 ===================
 local [.git/config] : 
 $ git config --local user.name 'yugandhar'
-
+small change
 global [~/.gitconfig ] :
 $ git config --global user.name 'abc' 
 $ git config --global user.email 'abc@xyz.com'
