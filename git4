@@ -1,0 +1,17 @@
+Use case: 5 
+=========== 
+Merge the Feature branch into anthoer branch/ main branch 
+User should be changed to branch in which merging is required. 
+==========================
+$ git branch [To check the present branch]
+$ git branch <branch name> [to create a new branch] 
+$ git branch -a [to check the total branch in remote and local]
+$ git checkout <branch name> [to change the branch]
+$ git merge <Source branch which is going to be merged> 
+Eg: 
+$ git merge <branch name> [locally merge Feature branch into main branch] 
+$ git push -u origin main  [it updated "main" branch with Feature branch changes]
+Branch "Feature" is ahead of "main" branch. So we need to merge into "main" branch 
+  
+To delete the branch:
+===================
